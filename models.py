@@ -36,5 +36,5 @@ class Ticket(models.Model):
     class Meta:
         ordering = ('status', 'priority', 'submitted_date', 'title')
 
-    def __str__(self):
+    def __unicode__(self):
         return self.title
