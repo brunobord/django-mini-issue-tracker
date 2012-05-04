@@ -23,7 +23,7 @@ Installation
 Not ready yet. At the moment,
 
 * Copy this source code and make it available through your PYTHONPATH.
-* Add the `ìssuetracker`` application in your ``INSTALLED_APPS``
+* Add the ``issuetracker`` application in your ``INSTALLED_APPS``
 * use ``syncdb`` to create the issue table in your database
 
 If you're already using the automagic Django admin, there you are. You can start
