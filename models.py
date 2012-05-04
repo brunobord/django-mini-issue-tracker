@@ -33,12 +33,6 @@ class Ticket(models.Model):
     status = models.IntegerField(default=1, choices=STATUS_CODES)
     priority = models.IntegerField(default=1, choices=PRIORITY_CODES)
 
-    class Admin:
-        list_display = ('title', 'status', 'priority', 'submitter',
-            'submitted_date', 'modified_date')
-        list_filter = ('priority', 'status', 'submitted_date')
-        search_fields = ('title', 'description',)
-
     class Meta:
         ordering = ('status', 'priority', 'submitted_date', 'title')
 
