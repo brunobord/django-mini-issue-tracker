@@ -20,9 +20,16 @@ tracker build on top of the automatic Django admin.
 Installation
 ============
 
-Not ready yet. At the moment,
+Simply use pip::
 
-* Copy this source code and make it available through your PYTHONPATH.
+    $ pip install issuetracker
+
+Or you may want to use the github latest source, out of::
+
+    https://github.com/brunobord/django-mini-issue-tracker
+
+Anyway, you can use the application by:
+
 * Add the ``issuetracker`` application in your ``INSTALLED_APPS``
 * use ``syncdb`` to create the issue table in your database
 
@@ -30,4 +37,3 @@ If you're already using the automagic Django admin, there you are. You can start
 adding your issues, sort them, filter them by priority, etc.
 
 Done!
-
