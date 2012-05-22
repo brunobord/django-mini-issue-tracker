@@ -18,3 +18,9 @@ tracker build on top of the automatic Django admin.
     it deserved a fresh new start, using the latest Django features.
 
 Further documentation: http://django-mini-issue-tracker.rtfd.org
+
+License
+=======
+
+This piece of software is free as in speech and beer, under the terms of the MIT
+License. See the LICENSE file for more details.
