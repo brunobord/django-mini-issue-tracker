@@ -37,3 +37,9 @@ If you're already using the automagic Django admin, there you are. You can start
 adding your issues, sort them, filter them by priority, etc.
 
 Done!
+
+License
+=======
+
+This piece of software is free as in speech and beer, under the terms of the MIT
+License. See the LICENSE file for more details.
